@@ -1,9 +1,17 @@
+//
+//  Gradients.swift
+//  Gradients
+//
+//  Created by Cruz on 30/09/2018.
+//  Copyright © 2018 Cruz. All rights reserved.
+//
+
 enum Gradients {
     case warmFlame
     case nightFade
     case springWarmth
     case juicyPeach
-    case YoungPassion
+    case youngPassion
     case ladyLips
     case sunnyMorning
     case rainyAshville
@@ -50,7 +58,7 @@ enum Gradients {
     case freshMilk
     case snowAgain
     case februaryInk
-    case KindSteel
+    case kindSteel
     case softGrass
     case grownEarly
     case sharpBlues
@@ -123,7 +131,7 @@ enum Gradients {
     case cheerfulCaramel
     case nightSky
     case magicLake
-    case YoungGrass
+    case youngGrass
     case colorfulPeach
     case gentleCare
     case plumBath
