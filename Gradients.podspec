@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'A curated collection of splendid gradients made in swift'
+  s.description      = 'A curated collection of splendid gradients made in swift inspired by itmeo/webgradients'
 
   s.homepage         = 'https://github.com/cruisediary/Gradients'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
