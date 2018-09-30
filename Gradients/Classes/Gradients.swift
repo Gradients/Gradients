@@ -46,7 +46,7 @@ enum Gradients {
     case oldHat
     case starWine
     case deepBlue
-    case coupdeGrace
+    case coupDeGrace
     case happyAcid
     case awesomePine
     case newYork
