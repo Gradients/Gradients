@@ -14,7 +14,7 @@ enum Gradients {
     case heavyRain
     case amyCrisp
     case meanFruit
-    case deepBlue
+    case softBlue
     case ripeMalinka
     case cloudyKnoxville
     case malibuBeach
