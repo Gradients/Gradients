@@ -4,7 +4,7 @@
 
 ![logo](README/gradients.png)
 
-![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-4.2-orange.svg)
 [![Version](https://img.shields.io/cocoapods/v/Gradients.svg?style=flat)](http://cocoapods.org/pods/Gradients)
 [![License](https://img.shields.io/cocoapods/l/Gradients.svg?style=flat)](http://cocoapods.org/pods/Gradients)
 [![Platform](https://img.shields.io/cocoapods/p/Gradients.svg?style=flat)](http://cocoapods.org/pods/Gradients)

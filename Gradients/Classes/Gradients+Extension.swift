@@ -488,7 +488,7 @@ extension Gradients {
     
     func radial(startPoint: CGPoint, endPoint: CGPoint, colors: [CGColor], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
         let layer = CAGradientLayer()
-        layer.type = kCAGradientLayerRadial
+        layer.type = .radial
         layer.startPoint = startPoint
         layer.endPoint = endPoint
         layer.colors = colors
