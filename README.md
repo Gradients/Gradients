@@ -12,7 +12,7 @@
 180 splendid Gradients inspired by [itmeo/webgradients](https://github.com/itmeo/webgradients)
 [View all the gradients here »](https://webgradients.com)
 
-## Easy To Use
+## Easy To Use 🏄🏼
 ```swift
 view.layer.addSubLayer(Gradients.deepBlue.layer())
 ```
@@ -27,6 +27,9 @@ Gradients is available through [Cocoapods](http://cocoapods.org)
 ```ruby
 pod "Gradients"
 ```
+
+## Contribution
+Pull requests are always welcomed 🏄🏼
 
 ## Author
 cruz, cruzdiary@gmail.com
