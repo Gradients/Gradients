@@ -1,6 +1,6 @@
 # Gradients
 
-🌔 A curated collection of splendid gradients made in swift
+🌔 A curated collection of 180 splendid gradients made in swift
 
 ![logo](README/gradients.png)
 
@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/cocoapods/l/Gradients.svg?style=flat)](http://cocoapods.org/pods/Gradients)
 [![Platform](https://img.shields.io/cocoapods/p/Gradients.svg?style=flat)](http://cocoapods.org/pods/Gradients)
 
-Gradients inspired by [itmeo/webgradients](https://github.com/itmeo/webgradients)
+180 splendid Gradients inspired by [itmeo/webgradients](https://github.com/itmeo/webgradients)
 [View all the gradients here »](https://webgradients.com)
 
 ## Easy To Use
@@ -18,7 +18,7 @@ view.layer.addSubLayer(Gradients.deepBlue.layer())
 ```
 
 ## Requirements
-Gradients is written in Swift 4+, iOS 9.0+ Required
+Gradients is written in  Xcode 10, Swift 4+, iOS 9.0+ Required
 
 ## Installation
 Gradients is available through [Cocoapods](http://cocoapods.org)
@@ -27,6 +27,9 @@ Gradients is available through [Cocoapods](http://cocoapods.org)
 ```ruby
 pod "Gradients"
 ```
+
+## Author
+cruz, cruzdiary@gmail.com
 
 ## License
 
