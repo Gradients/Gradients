@@ -6,8 +6,8 @@
 //  Copyright © 2018년 Cruz. All rights reserved.
 //
 
-extension Gradients {
-    func layer() -> CALayer {
+public extension Gradients {
+    public func layer() -> CALayer {
         switch self {
         case .warmFlame:
             return linear(to: .degree(45), colors: [0xff9a9e, 0xfad0c4, 0xfad0c4], locations: [0.0, 0.99, 1.0])
@@ -466,11 +466,11 @@ extension Gradients {
         }
     }
     
-    func linear(to direction: Direction, colors: [Int], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
+    public func linear(to direction: Direction, colors: [Int], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
         return linear(to: direction, colors: colors.map { color in color.cgColor }, locations: locations)
     }
     
-    func linear(to direction: Direction, colors: [CGColor], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
+    public func linear(to direction: Direction, colors: [CGColor], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
         let layer = CAGradientLayer()
         layer.startPoint = direction.startPoint
         layer.endPoint = direction.endPoint
@@ -482,11 +482,11 @@ extension Gradients {
         return layer
     }
     
-    func radial(startPoint: CGPoint, endPoint: CGPoint, colors: [Int], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
+    public func radial(startPoint: CGPoint, endPoint: CGPoint, colors: [Int], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
         return radial(startPoint: startPoint, endPoint: endPoint, colors: colors.map { color in color.cgColor}, locations: locations)
     }
     
-    func radial(startPoint: CGPoint, endPoint: CGPoint, colors: [CGColor], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
+    public func radial(startPoint: CGPoint, endPoint: CGPoint, colors: [CGColor], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
         let layer = CAGradientLayer()
         layer.type = .radial
         layer.startPoint = startPoint

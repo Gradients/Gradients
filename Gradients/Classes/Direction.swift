@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum Direction {
+public enum Direction {
     case top
     case left
     case right
@@ -16,8 +16,8 @@ enum Direction {
     case degree(CGFloat)
 }
 
-extension Direction {
-    var startPoint: CGPoint {
+public extension Direction {
+    public var startPoint: CGPoint {
         switch self {
         case .top:
             return CGPoint(x: 0.5, y: 1.0)
@@ -33,7 +33,7 @@ extension Direction {
         }
     }
     
-    var endPoint: CGPoint {
+    public var endPoint: CGPoint {
         switch self {
         case .top:
             return CGPoint(x: 0.5, y: 0.0)
