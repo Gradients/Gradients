@@ -79,7 +79,7 @@
 		FCFF3C0521645C73008195F4 /* Gradients */ = {
 			isa = PBXGroup;
 			children = (
-				FCFF3C1D21645C8C008195F4 /* Classes */,
+				FCFF3C1D21645C8C008195F4 /* Sources */,
 				FCFF3C0621645C73008195F4 /* Gradients.h */,
 				FCFF3C0721645C73008195F4 /* Info.plist */,
 			);
@@ -95,7 +95,7 @@
 			path = GradientsTests;
 			sourceTree = "<group>";
 		};
-		FCFF3C1D21645C8C008195F4 /* Classes */ = {
+		FCFF3C1D21645C8C008195F4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				FCFF3C1E21645C8C008195F4 /* Gradients.swift */,
@@ -103,7 +103,7 @@
 				FCFF3C2021645C8C008195F4 /* Color+Extension.swift */,
 				FCFF3C2121645C8C008195F4 /* Direction.swift */,
 			);
-			path = Classes;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
