@@ -18,6 +18,30 @@
 view.layer.addSubLayer(Gradients.deepBlue.layer)
 ```
 
+#### 180+ Gradients
+```swift
+public enum Gradients: CaseIterable {
+    case warmFlame
+    case nightFade
+    case springWarmth
+    case juicyPeach
+    //...
+    case fabledSunset
+    case perfectBlue
+}
+```
+
+#### Direction
+```swift
+public enum Direction {
+    case top
+    case left
+    case right
+    case bottom
+    case degree(CGFloat)
+}
+```
+
 ## 🎨 Customize
 
 ![customize](README/custom.png)
