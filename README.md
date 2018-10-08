@@ -15,7 +15,7 @@
 
 ## 🏄🏼 Easy To Use
 ```swift
-view.layer.addSubLayer(Gradients.deepBlue.layer())
+view.layer.addSubLayer(Gradients.deepBlue.layer)
 ```
 
 ## Requirements
