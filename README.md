@@ -18,6 +18,15 @@
 view.layer.addSubLayer(Gradients.deepBlue.layer)
 ```
 
+## 🎨 Customize
+
+![customize](README/custom.png)
+```swift
+// degree for radian direction supported
+let customLayer = linear(to: .degree(-225), colors: [0x231557, 0x44107A, 0xFF1361, 0xFFF800], locations: [0.0, 0.29, 0.67, 1.0]) // Fabled Sunset
+view.layer.addSubLayer(customLayer)
+```
+
 ## Requirements
 Gradients is written in  Xcode 10, Swift 4+, iOS 9.0+ Required
 
