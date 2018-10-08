@@ -465,37 +465,37 @@ public extension Gradients {
             return linear(to: .degree(-225), colors: [0x3D4E81, 0x5753C9, 0x6E7FF3], locations: [0.0, 0.48, 1.0])
         }
     }
-    
-    public func linear(to direction: Direction, colors: [Int], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
-        return linear(to: direction, colors: colors.map { color in color.cgColor }, locations: locations)
+}
+
+public func linear(to direction: Direction, colors: [Int], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
+    return linear(to: direction, colors: colors.map { color in color.cgColor }, locations: locations)
+}
+
+public func linear(to direction: Direction, colors: [CGColor], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
+    let layer = CAGradientLayer()
+    layer.startPoint = direction.startPoint
+    layer.endPoint = direction.endPoint
+    layer.colors = colors
+    layer.locations = locations
+    if let filter = filter {
+        layer.backgroundFilters = [filter]
     }
-    
-    public func linear(to direction: Direction, colors: [CGColor], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
-        let layer = CAGradientLayer()
-        layer.startPoint = direction.startPoint
-        layer.endPoint = direction.endPoint
-        layer.colors = colors
-        layer.locations = locations
-        if let filter = filter {
-            layer.backgroundFilters = [filter]
-        }
-        return layer
+    return layer
+}
+
+public func radial(startPoint: CGPoint, endPoint: CGPoint, colors: [Int], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
+    return radial(startPoint: startPoint, endPoint: endPoint, colors: colors.map { color in color.cgColor}, locations: locations)
+}
+
+public func radial(startPoint: CGPoint, endPoint: CGPoint, colors: [CGColor], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
+    let layer = CAGradientLayer()
+    layer.type = .radial
+    layer.startPoint = startPoint
+    layer.endPoint = endPoint
+    layer.colors = colors
+    layer.locations = locations
+    if let filter = filter {
+        layer.backgroundFilters = [filter]
     }
-    
-    public func radial(startPoint: CGPoint, endPoint: CGPoint, colors: [Int], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
-        return radial(startPoint: startPoint, endPoint: endPoint, colors: colors.map { color in color.cgColor}, locations: locations)
-    }
-    
-    public func radial(startPoint: CGPoint, endPoint: CGPoint, colors: [CGColor], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
-        let layer = CAGradientLayer()
-        layer.type = .radial
-        layer.startPoint = startPoint
-        layer.endPoint = endPoint
-        layer.colors = colors
-        layer.locations = locations
-        if let filter = filter {
-            layer.backgroundFilters = [filter]
-        }
-        return layer
-    }
+    return layer
 }
