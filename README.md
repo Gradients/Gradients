@@ -51,6 +51,9 @@ let customLayer = linear(to: .degree(-225), colors: [0x231557, 0x44107A, 0xFF136
 view.layer.addSubLayer(customLayer)
 ```
 
+## Examples
+* [DeliTodo](https://github.com/kawoou/DeliTodo): Todo application for iOS using Deli.
+
 ## Requirements
 Gradients is written in  Xcode 10, Swift 4+, iOS 9.0+ Required
 
