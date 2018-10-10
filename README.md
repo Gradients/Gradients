@@ -4,6 +4,7 @@
 
 ![logo](README/gradients.png)
 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ![Swift](https://img.shields.io/badge/Swift-4.2-orange.svg)
 [![Version](https://img.shields.io/cocoapods/v/Gradients.svg?style=flat)](http://cocoapods.org/pods/Gradients)
 [![License](https://img.shields.io/cocoapods/l/Gradients.svg?style=flat)](http://cocoapods.org/pods/Gradients)
@@ -72,6 +73,10 @@ github "cruisediary/Gradients" ~> 0.1.4
 
 ## ❤️ Contribution
 Pull requests are always welcomed 🏄🏼
+
+## Awesome
+* [awesome-swift](https://github.com/matteocrippa/awesome-swift) - A collaborative list of awesome Swift libraries and resources. Feel free to contribute!
+* [awesome-gradient](https://github.com/cruisediary/awesome-gradient) - 🌈 A curated list of awesome Gradient frameworks, libraries and software and resources
 
 ## 👨‍💻 Author
 cruz, cruzdiary@gmail.com
