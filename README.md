@@ -21,8 +21,8 @@ view.layer.addSubLayer(Gradients.deepBlue.layer)
 
 #### 180+ Gradients
 ```swift
-public enum Gradients: CaseIterable {
-    case warmFlame
+public enum Gradients: Int, CaseIterable {
+    case warmFlame = 1
     case nightFade
     case springWarmth
     case juicyPeach
