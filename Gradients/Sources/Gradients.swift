@@ -6,8 +6,8 @@
 //  Copyright © 2018 Cruz. All rights reserved.
 //
 
-public enum Gradients: CaseIterable {
-    case warmFlame
+public enum Gradients: Int, CaseIterable {
+    case warmFlame = 1
     case nightFade
     case springWarmth
     case juicyPeach
