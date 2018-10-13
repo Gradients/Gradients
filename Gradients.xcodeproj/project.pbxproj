@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC6AC6082172396000959A77 /* Gradients+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AC6062172395F00959A77 /* Gradients+Name.swift */; };
+		FC6AC6092172396000959A77 /* Gradients+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AC6072172396000959A77 /* Gradients+Layer.swift */; };
 		FCFF3C0D21645C73008195F4 /* Gradients.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFF3C0321645C73008195F4 /* Gradients.framework */; };
 		FCFF3C1221645C73008195F4 /* GradientsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF3C1121645C73008195F4 /* GradientsTests.swift */; };
 		FCFF3C1421645C73008195F4 /* Gradients.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFF3C0621645C73008195F4 /* Gradients.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFF3C2221645C8C008195F4 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF3C1E21645C8C008195F4 /* Gradients.swift */; };
-		FCFF3C2321645C8C008195F4 /* Gradients+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF3C1F21645C8C008195F4 /* Gradients+Extension.swift */; };
 		FCFF3C2421645C8C008195F4 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF3C2021645C8C008195F4 /* Color+Extension.swift */; };
 		FCFF3C2521645C8C008195F4 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF3C2121645C8C008195F4 /* Direction.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC6AC6062172395F00959A77 /* Gradients+Name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Gradients+Name.swift"; sourceTree = "<group>"; };
+		FC6AC6072172396000959A77 /* Gradients+Layer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Gradients+Layer.swift"; sourceTree = "<group>"; };
 		FCFF3C0321645C73008195F4 /* Gradients.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gradients.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFF3C0621645C73008195F4 /* Gradients.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gradients.h; sourceTree = "<group>"; };
 		FCFF3C0721645C73008195F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,7 +37,6 @@
 		FCFF3C1121645C73008195F4 /* GradientsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsTests.swift; sourceTree = "<group>"; };
 		FCFF3C1321645C73008195F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCFF3C1E21645C8C008195F4 /* Gradients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
-		FCFF3C1F21645C8C008195F4 /* Gradients+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Gradients+Extension.swift"; sourceTree = "<group>"; };
 		FCFF3C2021645C8C008195F4 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		FCFF3C2121645C8C008195F4 /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,7 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				FCFF3C1E21645C8C008195F4 /* Gradients.swift */,
-				FCFF3C1F21645C8C008195F4 /* Gradients+Extension.swift */,
+				FC6AC6072172396000959A77 /* Gradients+Layer.swift */,
+				FC6AC6062172395F00959A77 /* Gradients+Name.swift */,
 				FCFF3C2021645C8C008195F4 /* Color+Extension.swift */,
 				FCFF3C2121645C8C008195F4 /* Direction.swift */,
 			);
@@ -214,10 +217,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC6AC6082172396000959A77 /* Gradients+Name.swift in Sources */,
 				FCFF3C2221645C8C008195F4 /* Gradients.swift in Sources */,
 				FCFF3C2421645C8C008195F4 /* Color+Extension.swift in Sources */,
-				FCFF3C2321645C8C008195F4 /* Gradients+Extension.swift in Sources */,
 				FCFF3C2521645C8C008195F4 /* Direction.swift in Sources */,
+				FC6AC6092172396000959A77 /* Gradients+Layer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
