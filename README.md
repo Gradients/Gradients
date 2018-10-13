@@ -68,7 +68,7 @@ pod "Gradients"
 
 ### Carthage
 ```
-github "cruisediary/Gradients" ~> 0.1.4
+github "cruisediary/Gradients" ~> 0.2.0
 ```
 
 ## ❤️ Contribution
