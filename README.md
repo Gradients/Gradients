@@ -53,6 +53,7 @@ view.layer.addSubLayer(customLayer)
 ```
 
 ## Examples
+* [Comets](https://github.com/cruisediary/Comets): ☄️Comets: Animating Particles in Swift.
 * [DeliTodo](https://github.com/kawoou/DeliTodo): Todo application for iOS using Deli.
 
 ## Requirements
