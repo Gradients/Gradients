@@ -12,7 +12,7 @@ extension UIColor {
         assert(red >= 0 && red <= 255, "Invalid red component")
         assert(green >= 0 && green <= 255, "Invalid green component")
         assert(blue >= 0 && blue <= 255, "Invalid blue component")
-        assert(alpha >= 0 && alpha <= 255, "Invalid alpha component")
+        assert(alpha >= 0.0 && alpha <= 1.0, "Invalid alpha component")
         
         self.init(red: CGFloat(red) / 255.0,
                   green: CGFloat(green) / 255.0,
