@@ -48,7 +48,7 @@ public enum Direction {
 ![customize](README/custom.png)
 ```swift
 // degree for radian direction supported
-let customLayer = linear(to: .degree(-225), colors: [0x231557, 0x44107A, 0xFF1361, 0xFFF800], locations: [0.0, 0.29, 0.67, 1.0]) // Fabled Sunset
+let customLayer = Gradients.linear(to: .degree(-225), colors: [0x231557, 0x44107A, 0xFF1361, 0xFFF800], locations: [0.0, 0.29, 0.67, 1.0]) // Fabled Sunset
 view.layer.addSubLayer(customLayer)
 ```
 
@@ -69,7 +69,7 @@ pod "Gradients"
 
 ### Carthage
 ```
-github "cruisediary/Gradients" ~> 0.2.1
+github "cruisediary/Gradients" ~> 0.2.2
 ```
 
 ## ❤️ Contribution
