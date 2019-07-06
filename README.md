@@ -5,7 +5,7 @@
 ![logo](README/gradients.png)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-![Swift](https://img.shields.io/badge/Swift-4.2-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
 [![Version](https://img.shields.io/cocoapods/v/Gradients.svg?style=flat)](http://cocoapods.org/pods/Gradients)
 [![License](https://img.shields.io/cocoapods/l/Gradients.svg?style=flat)](http://cocoapods.org/pods/Gradients)
 [![Platform](https://img.shields.io/cocoapods/p/Gradients.svg?style=flat)](http://cocoapods.org/pods/Gradients)
@@ -69,7 +69,7 @@ pod "Gradients"
 
 ### Carthage
 ```
-github "cruisediary/Gradients" ~> 0.2.2
+github "cruisediary/Gradients" ~> 0.3.0
 ```
 
 ## ❤️ Contribution
