@@ -17,7 +17,7 @@ public enum Direction {
 }
 
 public extension Direction {
-    public var startPoint: CGPoint {
+    var startPoint: CGPoint {
         switch self {
         case .top:
             return CGPoint(x: 0.5, y: 1.0)
@@ -33,7 +33,7 @@ public extension Direction {
         }
     }
     
-    public var endPoint: CGPoint {
+    var endPoint: CGPoint {
         switch self {
         case .top:
             return CGPoint(x: 0.5, y: 0.0)

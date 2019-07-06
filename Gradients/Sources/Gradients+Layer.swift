@@ -7,7 +7,7 @@
 //
 
 public extension Gradients {
-    public var layer: CALayer {
+    var layer: CALayer {
         switch self {
         case .warmFlame:
             return Gradients.linear(to: .degree(45), colors: [0xff9a9e, 0xfad0c4, 0xfad0c4], locations: [0.0, 0.99, 1.0])

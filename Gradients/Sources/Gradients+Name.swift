@@ -1,5 +1,5 @@
 public extension Gradients {
-    public var name: String {
+    var name: String {
         switch self {
         case .warmFlame:
            return "Warm Flame"
