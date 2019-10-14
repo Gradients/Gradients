@@ -32,6 +32,6 @@ extension UIColor {
 
 extension Int {
     var cgColor: CGColor {
-        return UIColor(self).cgColor
+        UIColor(self).cgColor
     }
 }
