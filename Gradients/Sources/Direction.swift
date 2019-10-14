@@ -32,7 +32,7 @@ public extension Direction {
             return CGPoint(x: 0.5 * (cos(radian) + 1), y: 0.5 * (1 - sin(radian)))
         }
     }
-    
+
     var endPoint: CGPoint {
         switch self {
         case .top:
