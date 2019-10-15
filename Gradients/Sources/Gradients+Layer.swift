@@ -274,14 +274,14 @@ public extension Gradients {
         case .riverCity:
             return Gradients.linear(to: .top, colors: [0x4481eb, 0x04befe], locations: [0.0, 1.0])
         case .frozenBerry:
-            return Gradients.linear(to: .top, colors: [0xe8198b, 0xc7eafd], locations: [0.0 ,1.0])
+            return Gradients.linear(to: .top, colors: [0xe8198b, 0xc7eafd], locations: [0.0, 1.0])
         case .elegance:
             let layer = CALayer()
             layer.addSublayer(Gradients.radial(startPoint: CGPoint(x: 0.73, y: 0.73),
                                                endPoint: CGPoint(x: 1.47, y: 1.47),
                                                colors: [0xEADFDF, 0xECE2DF],
                                                locations: [0.59, 1.0]))
-            
+
             layer.addSublayer(Gradients.radial(startPoint: CGPoint(x: 0.91, y: 0.91),
                                                endPoint: CGPoint(x: 2.37, y: 2.37),
                                                colors: [UIColor(0xffffff, a: 0.1).cgColor, UIColor(0x000000, a: 0.1).cgColor],
@@ -310,7 +310,7 @@ public extension Gradients {
                                                colors: [UIColor(0xffffff, a: 0.5).cgColor, UIColor(0x000000, a: 0.5).cgColor],
                                                locations: [0.0, 1.0],
                                                filter: CIFilter(name: "CIScreenBlendMode")))
-            
+
             layer.addSublayer(Gradients.linear(to: .bottom,
                                                colors: [UIColor(0xffffff, a: 0.25).cgColor, UIColor(0x000000, a: 0.25).cgColor],
                                                locations: [0.0, 1.0],
@@ -471,7 +471,7 @@ extension Gradients {
     public static func linear(to direction: Direction, colors: [Int], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
         return linear(to: direction, colors: colors.map { color in color.cgColor }, locations: locations)
     }
-    
+
     public static func linear(to direction: Direction, colors: [CGColor], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
         let layer = CAGradientLayer()
         layer.startPoint = direction.startPoint
@@ -483,11 +483,11 @@ extension Gradients {
         }
         return layer
     }
-    
+
     public static func radial(startPoint: CGPoint, endPoint: CGPoint, colors: [Int], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
         return radial(startPoint: startPoint, endPoint: endPoint, colors: colors.map { color in color.cgColor}, locations: locations)
     }
-    
+
     public static func radial(startPoint: CGPoint, endPoint: CGPoint, colors: [CGColor], locations: [NSNumber], filter: CIFilter? = nil) -> CAGradientLayer {
         let layer = CAGradientLayer()
         layer.type = .radial

@@ -1,0 +1,4 @@
+disabled_rules:
+  - line_length
+  - file_length
+  - identifier_name
