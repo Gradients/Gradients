@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		865377C4235A2CEF0092A5EF /* SwiftUi Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865377C3235A2CEF0092A5EF /* SwiftUi Gradient.swift */; };
 		FC6AC6082172396000959A77 /* Gradients+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AC6062172395F00959A77 /* Gradients+Name.swift */; };
 		FC6AC6092172396000959A77 /* Gradients+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AC6072172396000959A77 /* Gradients+Layer.swift */; };
 		FCFF3C0D21645C73008195F4 /* Gradients.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFF3C0321645C73008195F4 /* Gradients.framework */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		865377C3235A2CEF0092A5EF /* SwiftUi Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUi Gradient.swift"; sourceTree = "<group>"; };
 		FC6AC6062172395F00959A77 /* Gradients+Name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Gradients+Name.swift"; sourceTree = "<group>"; };
 		FC6AC6072172396000959A77 /* Gradients+Layer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Gradients+Layer.swift"; sourceTree = "<group>"; };
 		FCFF3C0321645C73008195F4 /* Gradients.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gradients.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +107,7 @@
 				FC6AC6062172395F00959A77 /* Gradients+Name.swift */,
 				FCFF3C2021645C8C008195F4 /* Color+Extension.swift */,
 				FCFF3C2121645C8C008195F4 /* Direction.swift */,
+				865377C3235A2CEF0092A5EF /* SwiftUi Gradient.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				FCFF3C2221645C8C008195F4 /* Gradients.swift in Sources */,
 				FCFF3C2421645C8C008195F4 /* Color+Extension.swift in Sources */,
 				FCFF3C2521645C8C008195F4 /* Direction.swift in Sources */,
+				865377C4235A2CEF0092A5EF /* SwiftUi Gradient.swift in Sources */,
 				FC6AC6092172396000959A77 /* Gradients+Layer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

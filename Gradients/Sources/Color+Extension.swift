@@ -19,7 +19,7 @@ extension UIColor {
                   blue: CGFloat(blue) / 255.0,
                   alpha: alpha)
     }
-
+//Second initiatlization of UiColor
     convenience init(_ rgb: Int, a: CGFloat = 1.0) {
         self.init(
             red: (rgb >> 16) & 0xFF,
