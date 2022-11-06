@@ -6,7 +6,7 @@
 //  Copyright © 2018 Cruz. All rights reserved.
 //
 
-import UIKit
+import CoreGraphics
 
 public enum Direction {
     case top
