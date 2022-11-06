@@ -6,6 +6,7 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
+[![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)
 [![Version](https://img.shields.io/cocoapods/v/Gradients.svg?style=flat)](http://cocoapods.org/pods/Gradients)
 [![License](https://img.shields.io/cocoapods/l/Gradients.svg?style=flat)](http://cocoapods.org/pods/Gradients)
 [![Platform](https://img.shields.io/cocoapods/p/Gradients.svg?style=flat)](http://cocoapods.org/pods/Gradients)
@@ -60,7 +61,14 @@ view.layer.addSubLayer(customLayer)
 Gradients is written in  Xcode 10, Swift 4+, iOS 9.0+ Required
 
 ## 📲 Installation
-Gradients is available through [Cocoapods](http://cocoapods.org) or [Carthage](https://github.com/Carthage/Carthage)
+Gradients is available through [Swift Package Manager](https://www.swift.org/package-manager/), [Cocoapods](http://cocoapods.org) or [Carthage](https://github.com/Carthage/Carthage)
+
+### Swift Package Manager (Recommended)
+```
+dependencies: [
+    .package(url: "https://github.com/Gradients/Gradients.git", .upToNextMajor(from: "0.3.1"))
+]
+```
 
 ### Cocoapods
 ```ruby
