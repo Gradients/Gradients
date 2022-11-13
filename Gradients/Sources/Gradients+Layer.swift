@@ -6,6 +6,8 @@
 //  Copyright © 2018년 Cruz. All rights reserved.
 //
 
+import UIKit
+
 public extension Gradients {
     var layer: CALayer {
         switch self {
