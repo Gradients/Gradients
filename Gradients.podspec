@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Gradients'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'A curated collection of splendid gradients made in swift'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,6 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cruz' => 'cruzdiary@gmail.com' }
   s.source           = { :git => 'https://github.com/cruisediary/Gradients.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
   s.source_files = 'Gradients/Sources/**/*'
